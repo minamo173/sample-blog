@@ -10,4 +10,6 @@ phases:
       - hexo generate
 artifacts:
   files:
-    - public/**/*
+    - '**/*'
+  base-directory: 'public'
+  discard-paths: yes
